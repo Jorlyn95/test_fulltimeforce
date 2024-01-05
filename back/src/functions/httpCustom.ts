@@ -6,13 +6,16 @@
  * @returns 
  */
 export default async function httpCustom( path: String, method: string, data: any): Promise<any> {
-    let env: any =""
+    let env: any ="https://api.github.com/repos/"
 
     let opts: any = {
         method: method,
         headers: {
             'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': "*"
+            'Access-Control-Allow-Origin': "*",
+            "Authorization": "Bearer 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",
+            "X-GitHub-Api-Version":" 2022-11-28",
+            "Accept": "application/vnd.github+json"
         },
         
     }
