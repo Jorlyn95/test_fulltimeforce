@@ -13,7 +13,7 @@ export default async function httpCustom( path: String, method: string, data: an
         headers: {
             'Content-Type': 'application/json',
             'Access-Control-Allow-Origin': "*",
-            "Authorization": "Bearer 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",
+            "Authorization": "Bearer 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",
             "X-GitHub-Api-Version":" 2022-11-28",
             "Accept": "application/vnd.github+json"
         },
